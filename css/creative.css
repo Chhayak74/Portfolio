@@ -9,8 +9,33 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Crimson Text', serif;
+  /*font-family: 'Poiret One', cursive;*/
+  /*font-family: 'Poiret One', cursive,'Merriweather', 'Helvetica Neue', Arial, sans-serif;*/
 }
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    color: #1b2141;
+    /* text-decoration: underline; */
+    background-color: #a07d62;
+    padding: 1vw;
+    margin: 1vw;
+    background-attachment: 1vw;
+    /* background-origin: border-box; */
+    /* background-blend-mode: darken; */
+    /* background-clip: padding-box; */
+}
+
+.navbar-default.affix .navbar-header .navbar-brand {
+    /* color: #F05F40; */
+    font-size: 14px;
+}
+
+.navbar-default .nav > li > a, .navbar-default .nav > li > a:focus {
+    color: #191f3e;
+    /* text-decoration: underline; */
+}
+
 .small {
   width: 100%;
   height: 3vw;
@@ -46,7 +71,7 @@ h1 {
   display: inline;
 }
 hr {
-  border-color:#a94442 ;
+  border-color:#1a203e ;
   border-width: .5vw;
   max-width: 17vw;
 }
@@ -67,6 +92,7 @@ a#name.navbar-brand.page-scroll{
 #me {
   width: 32vw !important;
   height: 32vw !important;
+
 }
 hr.light {
   border-color: white;
@@ -92,7 +118,7 @@ a:focus {
     font-family:  'The Girl Next Door',  cursive;
     font-size: 4vw;
     font-weight: none;
-    color: #a94442;
+    color: #1a2241;
 }
 h2 ,h3{
   font-size: 4vw;
@@ -122,7 +148,8 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #734eed;
+  background-color: #d3fa64;
+  color: #02d3d7;
 }
 .bg-dark {
   background-color: #222222;
@@ -171,7 +198,7 @@ aside {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2vw;
-  color: #222222;
+  color: #19213e;
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
@@ -200,8 +227,7 @@ aside {
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
-    color: #0876d2;
-    text-decoration: underline;
+    color: #191f3e;
     margin-top: 3vw;
   }
   .navbar-default .nav > li > a:hover,
@@ -247,8 +273,8 @@ aside {
   }
   .navbar-default .nav > li > a,
   .navbar-default .nav > li > a:focus {
-    color: #0876d2;
-    text-decoration: underline;
+    
+    color: #191f3e;
     
   }
   .navbar-default .nav > li > a:hover,
@@ -285,7 +311,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/des.jpg');
+  background-image: url('../img/back2.jpg');
   text-align: center;
   color: #01e6cd;
 }
@@ -294,6 +320,7 @@ header .header-content-inner {
   text-align: center;
   padding: 10em 15px 100px;
   width: 100%;
+  background-color: 
 }
 header .header-content .header-content-inner h1 {
   font-weight: 700;
@@ -587,7 +614,7 @@ body {
   webkit-tap-highlight-color: #222222;
 }
 .navbar-default .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #523f2f;
 }
 #name{
   position: relative;
@@ -657,8 +684,21 @@ header .header-content-inner .container {
 #contact {
   background-color: 
 }
+#me {
+  margin-top: 7%;
+}
 
 
+}
+
+@media (min-width: 768px){
+.navbar-right {
+    float: right!important;
+    margin-top: -10vw;
+    margin-right: -15px;
+    text-decoration: none;
+    color: #191f3e;
+}
 }
 
 @media (max-width:550px){
@@ -667,6 +707,7 @@ header .header-content-inner .container {
 
 @media (max-width:991px){
   h1#homeHeading{
-  color:#a94442;
+  color:#19213e;
 }
 }
+
