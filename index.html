@@ -18,6 +18,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Antic+Slab|Kaushan+Script" rel="stylesheet">
 
     <!-- Scroll Effects -->
     <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css" /> -->
@@ -53,10 +54,10 @@
                     <li id="aboutme">
                         <a class="page-scroll" href="#about">About Me</a>
                     </li>
-                    <li>
+                    <li id="service">
                         <a class="page-scroll" href="#services">projects</a>
                     </li>
-                    <li>
+                    <li id="contactli">
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -77,11 +78,18 @@
                 <div class="col-lg-6 col-md-6 col-sm-12" >
                   <img id="me" src="img/me.jpg" class="img-circle" class="img-responsive" width="300vw" height="300vw"><br>
                   
+                  
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h1 id="homeHeading"> <span id="hello"> Hello!!</span><br id="thank"> Thanks for stopping by<br><br> <span id="dev">I'm a Node Noob and an aspiring MEAN Stack Developer. </span></h1>
+                <div class="col-lg-6 col-md-6 col-sm-12" id="message">
+                  <h1 id="homeHeading"> <span id="hello"> Hello!!</span><br><span id="thank"> Thanks for stopping by</span><br><span id="dev">I'm a Promising MEAN Stack Developer. </span></h1>
                   <hr>
+                  <div id="findme">
+                      
+                      <a href="https://github.com/chhayak74"><i class="fa fa-github" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp;
+                      <a href="https://in.linkedin.com/in/chhaya-kashyap-79844ab6"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </div>
                 </div>
+
             </div>
                 </div>
         </div>
@@ -93,8 +101,7 @@
                     <h2 class="section-heading">About Me</h2>
                     <hr class="light">
                     <div class="img-circle">
-                        <p >It has been a few months that I have started Web Developement and this field has totally amazed me and now I want to explore it more (although I am a Telecom Engineer by Degree).<br>By far I have worked in Express.js , Node.js , MongoDB , HTML, Javascript and CSS. And now I am looking for a Job that encourages skill developement and help me diversify my knowledge. </p>
-                        <p >Apart from this I love travelling , reading and listening music.</p>
+                        <p >I am a Full Stack JavaScript Developer. It has been a few months that I have started Web Development and this field has totally amazed me and this has inspired me to dig more into "Web Development".<br>By far I have worked in Express.js , Node.js , MongoDB , HTML, Angularjs, jQuery, Github, Javascript and CSS. And now I am looking for a Job where I can apply all my creativity and knowledge and along with it encourages skill development and help me diversify my knowledge and expertise. </p>
                     </div>
 
                    </div>
@@ -107,40 +114,36 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My projects</h2>
+                    <h2 class="section-heading">My Projects</h2>
                     <hr  class="light">
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Project 1</h3>
-                        <p class="text-muted"></p>
-                    </div>
+                <div class="col-lg-12 col-md-12 text-center prodiv">
+                    <img class="projectimg" src="img/isurvey.png">
+                    <a href="https://github.com/Chhayak74/AllAboutSurvey">
+                        <h4>Online Survey Application</h4>  
+                    </a>
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Project 2</h3>
-                        <p class="text-muted"></p>
-                    </div>
+                <div class="col-lg-12 col-md-12 text-center prodiv">    
+                    <img  class="projectimg" src="img/resume-builder.png">
+                    <a href="https://chhayak74.github.io/Jquery-Mini-Project/">
+                      <h4>Online Resume Builder</h4>  
+                    </a>
+                    
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Project 3</h3>
-                        <p class="text-muted"></p>
-                    </div>
+                <div class="col-lg-12 col-md-12 text-center prodiv">
+                    <img class="projectimg" src="img/repo-search.png">
+                    <a href="https://chhayak74.github.io/Repository-Search/#/">
+                        <h4>Respository Search</h4>
+                    </a>
+                    
                 </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Project 4</h3>
-                        <p class="text-muted"></p>
-                    </div>
+                <div class="col-lg-12 col-md-12 text-center prodiv">
+                    <h4 class="git">Find More Of My Work On Github</h4>
+                    <a  href="https://github.com/chhayak74"><i class="fa fa-github" id="giticon" aria-hidden="true"></i></a>
                 </div>
             </div>
         </div>
@@ -152,18 +155,18 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                      <h1 class="hire">Interested? Hire me!!</h1>
                     
-                        <p>If you like my work ,I am available for Freelancing and other Web Developement Job, or just send me a friendly hello!!</p>
+                        <p>If you like my work ,I am available for Freelancing and other Web Development Job, or just send me a friendly hello!!</p>
 
                     <hr class="light">
                     <!-- <p></p> -->
                 </div>
                 <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
-                    <p>123-456-6789</p>
+                    <p>7587137351</p>
                 </div>
                 <div class="col-lg-4 text-center">
                     <i  class="fa fa-envelope-o fa-3x sr-contact"></i>
-                    <p><a href="mailto:your-email@your-domain.com">chhaya@edwisor.com</a></p>
+                    <p><a href="mailto:chhayak74@gmail.com">chhayak74@gmail.com</a></p>
                 </div>
             </div>
         </div>
